@@ -1,0 +1,7 @@
+<a data-ui-sref="wdinstagramNew">New Entry</a>
+
+<h2>These are all the Entries</h2>
+
+<div data-ng-repeat="entry in vm.entries">
+  <p><a data-ui-sref="wdinstagramShow({id: entry.id})">{{entry.author}}</a></p>
+</div>
